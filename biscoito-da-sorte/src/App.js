@@ -22,7 +22,7 @@ class App extends Component {
     let state = this.state;
     let numeroAleatorio = Math.floor(Math.random() * this.frases.length);
     state.textoFrase = this.frases[numeroAleatorio];
-    this.setState(state)
+    this.setState(state);
   }
 
   render() {
